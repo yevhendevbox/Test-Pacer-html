@@ -9,10 +9,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Title</title>
+    <title>Login | Sign up</title>
     <meta name="description" lang="ru-ru" content="">
-    <meta name="keywords" lang="ru-ru" content="Y.D. web, разработка сайтов">
-    <meta name="keywords" lang="en-us" content="Y.D. web, web development">
+    <meta name="keywords" lang="ru-ru" content="">
+    <meta name="keywords" lang="en-us" content="">
     <meta name="author" lang="ru-ru" content="">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,11 +27,23 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
-
 <body>
-<h1>Hello World</h1>
+    <header></header>
+    <main class="showcase">
+        <h1>PacerGame member registration</h1>
+        <form id=signupForm class="signupForm">
+            <input id=login placeholder="nickname">
+            <input id=mail placeholder="user@mail.com" type=email>
+            <input id=pass placeholder="PA55w0rd" type=password>
+            <label for=login id=label1>Login:</label>
+            <label for=mail id=label2>E-mail:</label>
+            <label for=pass id=label3>Password:</label>
+            <button id=signupBtn>Sign Up</button>
+        </form>
+    </main>
 
-      <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <script src="js/init.js"></script>
 </body>
+
 </html>
